@@ -1,6 +1,6 @@
 {
   "name": "crypto-transfer-qr",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "scripts": {
     "prepublishOnly": "npm run transpile",
@@ -8,6 +8,11 @@
     "transpile": "babel src -d dist --copy-files"
   },
   "license": "MIT",
+  "keywords": [
+    "crypto",
+    "transfer",
+    "qr"
+  ],
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
