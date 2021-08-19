@@ -8,6 +8,12 @@ This is a program for generate QR of crypto address with transfer amount.
 ![npm](https://img.shields.io/npm/dt/crypto-transfer-qr)
 ![NPM](https://img.shields.io/npm/l/crypto-transfer-qr)
 
+## Donation
+
+Support the This Software Foundation!
+
+ETH: 0xF1c51266886c539Bd3e613ff17DBBDF653ae151e
+
 ## Install
 
 ```bash
@@ -53,3 +59,24 @@ This program is to send 100 USDC on the Ethereum Mainnet into "0xF1c51266886c539
   decimals="6",
 />
 ```
+
+|  options  |  format  |
+| ---- | ---- |
+|  contract  |  string |
+|  chain  |  string  |
+|  to  |  string  |
+|  decimals  |  string  |
+|  amount  |  number  |
+
+## More
+
+|  Network Name  |  Chain Id  |
+| ---- | ---- |
+|  Ethereum Mainnet  |  1 |
+|  Binance Smart Chain Mainnet  |  56  |
+|  Matic(Polygon) Mainnet  |  137  |
+|  xDAI Chain  |  100  |
+
+## License
+
+This software is released under the MIT License, see LICENSE.txt.
