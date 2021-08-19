@@ -1,0 +1,8 @@
+{
+  "name": "crypto-transfer-qr",
+  "version": "1.0.1",
+  "bin": {
+    "crypto-transfer-qr": "index.js"
+  },
+  "license": "MIT"
+}
