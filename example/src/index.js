@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom'
-import MyComponent from '../../src'
+import CryptoTransferQR from "../../src";
 
-const App = () => <MyComponent/>;
+const App = () => <CryptoTransferQR />;
 render(<App />, document.getElementById('root'));
