@@ -13,3 +13,43 @@ This is a program for generate QR of crypto address with transfer amount.
 ```bash
 $ npm i crypto-transfer-qr
 ```
+
+And install dependency packages.
+
+```bash
+$ npm i qrcode.react
+```
+
+## Example
+
+A simple program to Generate Crypto Transfer QRCode.
+(The default value is to send 1000 JPYC on the Matic(Polygon) Mainnet into "0xF1c51266886c539Bd3e613ff17DBBDF653ae151e")
+
+```javascript
+// import this package
+import CryptoTransferQR from "crypto-transfer-qr";
+
+const App = () => {
+  return <CryptoTransferQR />;
+};
+
+export default App;
+```
+
+## Options
+
+Set the options as follows.
+
+:warning: When adding an option, an error will occur if even one is missing.
+
+This program is to send 100 USDC on the Ethereum Mainnet into "0xF1c51266886c539Bd3e613ff17DBBDF653ae151e"
+
+```javascript
+<CryptoTransferQR 
+  contract="0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+  chain="1",
+  to="0xF1c51266886c539Bd3e613ff17DBBDF653ae151e",
+  amount={100},
+  decimals="6",
+/>
+```
