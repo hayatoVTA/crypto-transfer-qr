@@ -79,6 +79,10 @@ This program is to send 100 USDC on the Ethereum Mainnet into "0xF1c51266886c539
 
 reference: <a href="https://chainlist.org/" target="_blank">https://chainlist.org/</a>
 
+## Info
+
+Inspired by https://github.com/Nuko973663/jpycpayqr/
+
 ## License
 
 This software is released under the MIT License, see LICENSE.txt.
