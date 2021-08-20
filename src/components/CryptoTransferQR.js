@@ -7,6 +7,12 @@ const CryptoTransferQR = ({
   to = "0xF1c51266886c539Bd3e613ff17DBBDF653ae151e",
   amount = 1000,
   decimals = "18",
+  size = "200",
+  bgColor = "#FFFFFF",
+  fgColor = "#000000",
+  level = "L",
+  includeMargin = false,
+  renderAs = "canvas",
 } = {}) => {
   return (
     <>
@@ -23,6 +29,12 @@ const CryptoTransferQR = ({
           "e" +
           decimals
         }
+        size={size}
+        bgColor={bgColor}
+        fgColor={fgColor}
+        level={level}
+        includeMargin={includeMargin}
+        renderAs={renderAs}
       />
     </>
   );

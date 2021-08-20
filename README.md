@@ -42,7 +42,7 @@ const App = () => {
 export default App;
 ```
 
-## Options
+## Property
 
 Set the options as follows.
 
@@ -60,13 +60,19 @@ This program is to send 100 USDC on the Ethereum Mainnet into "0xF1c51266886c539
 />
 ```
 
-|  options  |  format  |
-| ---- | ---- |
-|  contract  |  string |
-|  chain  |  string  |
-|  to  |  string  |
-|  decimals  |  string  |
-|  amount  |  number  |
+property      | type                 | default value
+----------|----------------------|--------------
+`contract`   | `string`             | `0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c`
+`chain`   | `string`             | `1`
+`to`   | `string`             | `0xF1c51266886c539Bd3e613ff17DBBDF653ae151e`
+`decimals`   | `string`             | `18`
+`amount`   | `number`             | `1000`
+`renderAs`| `string` (`'canvas' 'svg'`) | `'canvas'`
+`size`    | `number`             | `200`
+`bgColor` | `string` (CSS color) | `"#FFFFFF"`
+`fgColor` | `string` (CSS color) | `"#000000"`
+`level`   | `string` (`'L' 'M' 'Q' 'H'`)            | `'L'`
+`includeMargin` | `boolean`      | `false`
 
 ## More
 
