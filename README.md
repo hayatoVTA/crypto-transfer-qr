@@ -52,11 +52,11 @@ This program is to send 100 USDC on the Ethereum Mainnet into "0xF1c51266886c539
 
 ```javascript
 <CryptoTransferQR 
-  contract="0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-  chain="1",
-  to="0xF1c51266886c539Bd3e613ff17DBBDF653ae151e",
-  amount={100},
-  decimals="6",
+  contract="0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+  chain="1"
+  to="0xF1c51266886c539Bd3e613ff17DBBDF653ae151e"
+  amount={100}
+  decimals="6"
 />
 ```
 
