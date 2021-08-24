@@ -2,6 +2,8 @@
 
 This is a program for generate QR of crypto address with transfer amount.
 
+Chinese: https://github.com/hayatoVTA/crypto-transfer-qr/blob/main/README_CN.md
+
 <!-- [![Build Status](https://travis-ci.org/hayatoVTA/crypto-transfer-qr.svg?branch=main)](https://travis-ci.org/hayatoVTA/crypto-transfer-qr)
 [![GitHub license](https://img.shields.io/github/license/hayatoVTA/rpncc.svg)](https://github.com/hayatoVTA/crypto-transfer-qr) -->
 [![npm](https://img.shields.io/npm/v/crypto-transfer-qr.svg)](https://npmjs.com/package/crypto-transfer-qr)
